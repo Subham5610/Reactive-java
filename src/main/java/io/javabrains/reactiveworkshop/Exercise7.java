@@ -30,15 +30,15 @@ public class Exercise7 {
                 .subscribe(number -> System.out.println(number * 10));
 
         // Print each value from intNumbersFlux that's greater than 20. Print -1 if no elements are found
-        ReactiveSources.intNumbersFlux()
-                .log()
-                .filter(integer -> integer > 5)
-                .defaultIfEmpty()
-                .subscribe(number -> System.out.println(number));
+//        ReactiveSources.intNumbersFlux()
+//                .log()
+//                .filter(integer -> integer > 5)
+//                .defaultIfEmpty()
+//                .subscribe(number -> System.out.println(number));
 
         // Switch ints from intNumbersFlux to the right user from userFlux
         // TODO: Write code here
-        
+
 
         // Print only distinct numbers from intNumbersFluxWithRepeat
         // TODO: Write code here
